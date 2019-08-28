@@ -18,7 +18,7 @@ $ composer require agegg/vop -vvv
 .
 .
 'vop' => [
-   'appKey' => env('VOP_API_APPKEY'),
+    'appKey' => env('VOP_API_APPKEY'),
     'appSecret' => env('VOP_API_APPSECRET'),
 ],
 .
