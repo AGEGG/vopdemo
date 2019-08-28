@@ -1,0 +1,20 @@
+{
+    "name": "agegg\/vop",
+    "description": "a sdk for vop demo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AGEGG",
+            "email": "2250389620@qq.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.3",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Agegg\\Vop\\": "src"
+        }
+    }
+}
