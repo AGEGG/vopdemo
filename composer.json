@@ -1,20 +1,25 @@
 {
-    "name": "agegg\/vop",
-    "description": "a sdk for vop demo",
+    "name": "agegg/vop",
+    "type": "library",
+    "description": "vop client(SDK) for laravel",
+    "keywords": ["vop", "laravel", "sdk", "api"],
+    "homepage": "https://github.com/AGEGG/vopdemo",
     "license": "MIT",
     "authors": [
         {
-            "name": "AGEGG",
+            "name": "agegg",
             "email": "2250389620@qq.com"
         }
     ],
     "require": {
-        "mockery/mockery": "^1.2",
-        "phpunit/phpunit": "~5"
+        "php": ">=7.1.0",
+        "illuminate/support": "~5.0|~5.1|~5.2|~5.3|~5.4|~5.5|~5.6",
+        "graham-campbell/manager": "^2.0|^3.0|^4.0"
     },
     "autoload": {
         "psr-4": {
-            "Agegg\\Vop\\": "src"
+            "Agegg\\VopClient\\": "src/",
+            "VopClient\\": "src/vop/"
         }
     }
 }
